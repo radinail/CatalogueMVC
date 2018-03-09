@@ -9,6 +9,9 @@ public class Produit implements Serializable {
 	private double prix;
 	private int quantite;
 	
+	public Produit() {
+		
+	}
 	
 	public Produit(String reference, String designation, double prix, int quantite) {
 		super();
